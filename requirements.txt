@@ -1,0 +1,6 @@
+NumPy
+Pandas
+Scikit-learn
+flask
+Spacy
+NLTK
