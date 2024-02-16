@@ -6,11 +6,20 @@ Spam Detection Flask App
 This project implements a simple web application using Flask for spam detection. 
 The application uses a pre-trained Naive Bayes model to classify input text as either "Spam" or "Ham" (non-spam). 
 
-To create and run a docker container, type these commands in the same place as the Dockerfile
+## To create and run a docker container, type these commands in the same place as the Dockerfile
 
 ```
 docker build -t app_name .
 docker run -p 127.0.0.1:5000:5000 app_name
+```
+## To check if the image has been built
+```
+docker images
+```
+
+## To check if the container is running once you start it
+```
+docker ps
 ```
 
 To deploy it using AWS elasticbeanstalk follow the steps below. There might be different options now, select the default choices
